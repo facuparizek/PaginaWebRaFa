@@ -1,5 +1,5 @@
 package entidades;
 
-public class Usuario {
+public class Comentario {
     
 }
