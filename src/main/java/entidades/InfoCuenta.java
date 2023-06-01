@@ -13,6 +13,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class InfoCuenta {
 
@@ -20,6 +21,7 @@ public class InfoCuenta {
     private String password;
     private Usuario[] seguidores;
     private Usuario[] seguidos;
+    private Conversacion[] conversaciones;
 
     
 }

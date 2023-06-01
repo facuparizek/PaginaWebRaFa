@@ -14,8 +14,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+
 public class Usuario {
 
+    public Usuario(DatosPersonales datosPersonales2, InfoCuenta infoCuenta2, boolean activo2) {
+    }
     @Id
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name = "uuid", strategy = "uuid2")
@@ -23,6 +26,8 @@ public class Usuario {
     private DatosPersonales datosPersonales;
     private InfoCuenta infoCuenta;
     private boolean activo;
+
+
     
 
     
